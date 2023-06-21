@@ -22,14 +22,6 @@ ERROR: INDIVIDUAL: US03 I2 Died 1950-09-04 before born 1955-06-08
 ERROR: INDIVIDUAL: US03 I4 Died 1980-11-09 before born 1984-11-13
 ERROR: Family: US05 F2: Married 2015-08-15 after wife/s I2 death on 1950-09-04
 ERROR US04: F1 Divorce happened before the date of marriage
-******US29: List of deceased
-+----+------+------------------+
-|    | ID   | Name             |
-|----+------+------------------|
-|  0 | I1   | Alex /Rubin/     |
-|  1 | I2   | Michelle /Rubin/ |
-|  3 | I4   | Emily /Rubin/    |
-+----+------+------------------+
 ******US28: List of ordered siblings
 +----+------+-------------------+----------+------------+-------+---------+------------+---------+----------+
 |    | ID   | Name              | Gender   | Birthday   |   Age | Alive   | Death      | Child   | Spouse   |
@@ -40,3 +32,11 @@ ERROR US04: F1 Divorce happened before the date of marriage
 |  6 | I7   | Rina /Rubin/      | F        | 2013-11-12 |     9 | True    | NA         | {'F3'}  | {}       |
 |  8 | I9   | Yosef /Hernandez/ | M        | 2016-12-08 |     6 | True    | NA         | {'F2'}  | {}       |
 +----+------+-------------------+----------+------------+-------+---------+------------+---------+----------+
+******US29: List of deceased
++----+------+------------------+
+|    | ID   | Name             |
+|----+------+------------------|
+|  0 | I1   | Alex /Rubin/     |
+|  1 | I2   | Michelle /Rubin/ |
+|  3 | I4   | Emily /Rubin/    |
++----+------+------------------+
