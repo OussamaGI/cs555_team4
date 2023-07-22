@@ -1,6 +1,6 @@
 import stories
 import unittest
-import cs555_team4.data as data
+import data
 
 
 class UserStoryTestCase(unittest.TestCase):
@@ -23,6 +23,16 @@ class UserStoryTestCase(unittest.TestCase):
         
         # Test case 2: Inexistence of siblings
         self.assertFalse(output.equals(data.noDeceased))
+        
+    def upcoming_birthdays(self):
+        
+        output = stories.upcomingBirthdays(data.individuals)
+        self.assertTrue(output.equals(data.upcomingBirthdays))
+        
+    def marriage_anniversaries(self):
+        output = stories.marriageAnniversaries(data.families)
+        
+        self.assertTrue(output.equals(data.anniversaries))
         
 
 if __name__ == '__main__':

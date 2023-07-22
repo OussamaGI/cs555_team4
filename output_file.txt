@@ -40,3 +40,14 @@ ERROR US04: F1 Divorce happened before the date of marriage
 |  1 | I2   | Michelle /Rubin/ |
 |  3 | I4   | Emily /Rubin/    |
 +----+------+------------------+
+******US38: List of upcoming birthdays
++----+------------+------------+
+|    | Name       | Birthday   |
+|----+------------+------------|
+|  0 | Jhon Rubin | 2023-08-08 |
++----+------------+------------+
+******US39: List of upcoming marriage anniversaries
++-----------+--------+------------------------+
+| Husband   | Wife   | Marriage Anniversary   |
+|-----------+--------+------------------------|
++-----------+--------+------------------------+
