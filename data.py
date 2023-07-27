@@ -187,16 +187,17 @@ individuals = [
         'ID': '@I10@',
         'Name': 'Carmen /Trout/',
         'Gender': 'F',
-        'Birthday': '1955-03-04',
+        'Birthday': '1955-08-27',
         'Age': '65',
-        'Alive': False,
-        'Death': '2003-06-08',
+        'Alive': True,
+        'Death': 'NA',
         'Child': '',
         'Spouse': '@F5@'
     }
     
 ]
 
+### US 28
 siblings = [
     
     {
@@ -251,6 +252,8 @@ siblings = [
 
 noSiblings = []
 
+
+## US 29
 listDeceased = [
     {
         'ID': '@I1@',
@@ -324,3 +327,17 @@ listDeceased = [
 ]
 
 noDeceased = []
+
+### US 38
+
+upcomingBirthdays = [
+    
+    {
+        'Name': 'Carmen /Trout/',
+        'Birthday': '2023-08-27'
+    }
+]
+
+### US 39
+
+anniversaries = []

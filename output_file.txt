@@ -16,7 +16,7 @@
 |----+------+------------+------------+--------------+-----------------+-----------+------------------+--------------|
 |  0 | F1   | 1975-03-19 | 1970-03-19 | I1           | Alex /Rubin/    | I2        | Michelle /Rubin/ | {'I4', 'I3'} |
 |  1 | F2   | 2015-08-15 | NA         | I8           | Jim /Hernandez/ | I2        | Michelle /Rubin/ | {'I9'}       |
-|  2 | F3   | 2007-11-12 | NA         | I3           | Jhon /Rubin/    | I5        | Crystal /Rubin/  | {'I7', 'I6'} |
+|  2 | F3   | 2007-11-12 | NA         | I3           | Jhon /Rubin/    | I5        | Crystal /Rubin/  | {'I6', 'I7'} |
 +----+------+------------+------------+--------------+-----------------+-----------+------------------+--------------+
 ERROR: INDIVIDUAL: US03 I2 Died 1950-09-04 before born 1955-06-08
 ERROR: INDIVIDUAL: US03 I4 Died 1980-11-09 before born 1984-11-13
@@ -40,3 +40,14 @@ ERROR US04: F1 Divorce happened before the date of marriage
 |  1 | I2   | Michelle /Rubin/ |
 |  3 | I4   | Emily /Rubin/    |
 +----+------+------------------+
+******US38: List of upcoming birthdays
++----+------------+------------+
+|    | Name       | Birthday   |
+|----+------------+------------|
+|  0 | Jhon Rubin | 2023-08-08 |
++----+------------+------------+
+******US39: List of upcoming marriage anniversaries
++-----------+--------+------------------------+
+| Husband   | Wife   | Marriage Anniversary   |
+|-----------+--------+------------------------|
++-----------+--------+------------------------+
