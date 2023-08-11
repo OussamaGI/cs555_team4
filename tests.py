@@ -34,6 +34,19 @@ class UserStoryTestCase(unittest.TestCase):
         
         self.assertTrue(output.equals(data.anniversaries))
         
+        
+    def parentsAge(self):
+        output = stories.parentsAge(data.families, data.individuals)
+        
+        self.assertTrue(output.equals([True,True]))
+        
+        
+    def lastNameCheck(self):
+        output = stories.lastNameCheck(data.families[0], data.individuals)
+        
+        self.assertTrue(output.equals(True))
+        
+        
 
 if __name__ == '__main__':
     unittest.main()

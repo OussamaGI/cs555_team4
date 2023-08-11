@@ -3,7 +3,7 @@
 |----+------+-------------------+----------+------------+-------+---------+------------+---------+--------------|
 |  0 | I1   | Alex /Rubin/      | M        | 1950-10-14 |    72 | False   | 2023-05-17 | {}      | {'F1'}       |
 |  1 | I2   | Michelle /Rubin/  | F        | 1955-06-08 |    -5 | False   | 1950-09-04 | {}      | {'F2', 'F1'} |
-|  2 | I3   | Jhon /Rubin/      | M        | 1980-08-08 |    42 | True    | NA         | {'F1'}  | {'F3'}       |
+|  2 | I3   | Jhon /Rubin/      | M        | 1980-08-08 |    43 | True    | NA         | {'F1'}  | {'F3'}       |
 |  3 | I4   | Emily /Rubin/     | F        | 1984-11-13 |    -5 | False   | 1980-11-09 | {'F1'}  | {}           |
 |  4 | I5   | Crystal /Rubin/   | F        | 1985-06-08 |    38 | True    | NA         | {}      | {'F3'}       |
 |  5 | I6   | Leo /Rubin/       | M        | 2010-05-07 |    13 | True    | NA         | {'F3'}  | {}           |
@@ -26,7 +26,7 @@ ERROR US04: F1 Divorce happened before the date of marriage
 +----+------+-------------------+----------+------------+-------+---------+------------+---------+----------+
 |    | ID   | Name              | Gender   | Birthday   |   Age | Alive   | Death      | Child   | Spouse   |
 |----+------+-------------------+----------+------------+-------+---------+------------+---------+----------|
-|  2 | I3   | Jhon /Rubin/      | M        | 1980-08-08 |    42 | True    | NA         | {'F1'}  | {'F3'}   |
+|  2 | I3   | Jhon /Rubin/      | M        | 1980-08-08 |    43 | True    | NA         | {'F1'}  | {'F3'}   |
 |  3 | I4   | Emily /Rubin/     | F        | 1984-11-13 |    -5 | False   | 1980-11-09 | {'F1'}  | {}       |
 |  5 | I6   | Leo /Rubin/       | M        | 2010-05-07 |    13 | True    | NA         | {'F3'}  | {}       |
 |  6 | I7   | Rina /Rubin/      | F        | 2013-11-12 |     9 | True    | NA         | {'F3'}  | {}       |
@@ -41,13 +41,23 @@ ERROR US04: F1 Divorce happened before the date of marriage
 |  3 | I4   | Emily /Rubin/    |
 +----+------+------------------+
 ******US38: List of upcoming birthdays
-+----+------------+------------+
-|    | Name       | Birthday   |
-|----+------------+------------|
-|  0 | Jhon Rubin | 2023-08-08 |
-+----+------------+------------+
++--------+------------+
+| Name   | Birthday   |
+|--------+------------|
++--------+------------+
 ******US39: List of upcoming marriage anniversaries
 +-----------+--------+------------------------+
 | Husband   | Wife   | Marriage Anniversary   |
 |-----------+--------+------------------------|
 +-----------+--------+------------------------+
+******US12: Parents and childs age difference
+US12: Father I1 is 80 years younger than his childs
+US12: Father I8 is 80 years younger than his childs
+US12: Father I3 is 80 years younger than his childs
+US12: Wife ID I2 has invalid age
+US12: Wife ID I2 has invalid age
+US12: Mother I5 is 80 years younger than her childs
+******US16: Families' male last name
+US16: Error: Family F1 does have the same last name for males
+US16: Error: Family F2 does have the same last name for males
+US16: Error: Family F3 does have the same last name for males

@@ -63,7 +63,7 @@ families = [
         'HusbandName': 'Irwin /Trout/',
         'WifeId': '@I8@',
         'WifeName': 'Gina /Koi/',
-        'Children': {}
+        'Children': {'@I9@', '@I10@'}
     },
     
     {
